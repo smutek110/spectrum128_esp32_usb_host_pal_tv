@@ -95,8 +95,8 @@ void IRAM_ATTR timer_group0_isr(void *para)
 	timer_group_enable_alarm_in_isr(TIMER_GROUP_0, TIMER_0);
 }
 #define BLINK_GPIO  22
-#define DP_P  16
-#define DM_P  17
+#define DP_P  32
+#define DM_P  33
 #define DP1_P  18
 #define DM1_P  19
 
